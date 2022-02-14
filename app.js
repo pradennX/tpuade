@@ -21,11 +21,12 @@ app.use(bodyParser.json());
 
 
 const connection = mysql.createConnection({
-  host: '127.0.0.1',
-  user: 'root',
-  password: 'juanse2200',
-  database: 'tpuade'
+  host: 'us-cdbr-east-05.cleardb.net',
+  user: 'b53c09e893d6af',
+  password: '2ffb44e7',
+  database: 'heroku_76f97eed50c8edd'
 });
+
 
 connection.connect(error => {
   if (error) throw error;
