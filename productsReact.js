@@ -108,7 +108,6 @@ class Productos extends React.Component {
       if(this.state.productos == null){
           html = <p>Cargando productos</p>
       } else {
-
           html = (        
               <ul>
                   {this.state.productos.map(x => {
